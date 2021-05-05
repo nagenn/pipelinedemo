@@ -8,7 +8,7 @@ pipeline {
         	}     	 
     	stage("Unit test") {          	 
         	steps {               	 
-                	sh "./Users/nagen/Documents/java HelloWorld"          	 
+                	sh "java HelloWorld"          	 
             	}     	 
         	}	 
     	}
